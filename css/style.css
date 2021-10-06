@@ -1,0 +1,378 @@
+*{
+    background-color: black;
+    color: white;
+    margin: 0;
+
+}
+
+
+
+@keyframes changeColor {
+    from { color: white; }  
+    to { color: dimgray; }  
+  }
+h2  {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 2rem;
+    text-align:  center;
+    margin-top: 0%;
+    background-color: rgb(139, 18, 18);
+    animation: changeColor 2s ease 0s infinite alternate;
+}
+/* -------------  Logo Tablita------------*/
+body > header > a > img {
+    background-color: rgb(139, 18, 18);
+    color:dimgray;
+    transition: .5s;
+   
+}
+
+body > header > a > img:hover{
+    transform:scale(1.15); 
+}
+
+body > a > img{
+    position:static;
+    border-style: dotted;
+    border-color: cornsilk; 
+    margin-top: 12vh;
+    width: 99vw;
+    height: 84vh;
+ 
+}
+
+
+
+
+
+/*    para poner video en pagian inicio
+body > a > video{
+    border-style: dotted;
+    border-color: cornsilk; 
+    margin-left: 0px;
+    
+    margin-top: 12vh;
+    width: 100vw;
+    height: ;
+    transition: .25s;
+    
+}  */  
+
+ 
+body > header > a {
+    position: fixed;
+    width: 50px;
+    height: 28px;
+    top: 10px;
+    left: 10px;
+   
+}
+
+.Logo {
+    color:dimgray;
+}
+
+nav {
+    padding: 5px;
+    background-color: rgb(139, 18, 18);
+    text-align: right;
+}
+
+nav > a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: rgb(105, 105, 105);
+    padding: 5px;
+    background-color: rgb(139, 18, 18) ;
+    text-decoration: none;
+}
+
+nav >a:hover{
+    color: dimgray;
+}
+
+nav > a >i{
+    color: dimgray;
+    padding: 5px;
+    background-color: rgb(139, 18, 18) ;
+    text-decoration: none;
+}
+
+/* Cambio barra navegacion de botones a iconos */
+
+@media only screen and (max-width: 640px){
+        nav > a {
+        font-size: 0 ;
+        background-color: rgb(139, 18, 18) ;
+        }
+    .fas, .far, .fab{
+        font-size: 1rem;
+        line-height: 1rem;
+        color: dimgray;
+        background-color: rgb(139, 18, 18);
+        
+    }
+
+}
+
+/* Formulario Login */
+
+.inusr, .inpwd, .sub {
+    padding: 5px;
+}
+
+
+
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    align-items: center;
+    }
+
+.Item {
+    padding:10px;
+    width: 200px;
+    
+}    
+
+@media screen and (min-width: 640px){
+    #contenedor {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items:flex-end;
+        
+}
+}
+
+.Recuadrito{
+    background-color: white;
+    color:dimgray;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 200px;
+}
+
+#contenedor > div.Item.sub > input[type=submit]:hover{
+    background-color: hsl(221, 100%, 50%);
+}
+
+#contenedor > div.Item.sub > input[type=submit]{
+    
+    background-color: #216efd;
+    height: 38px;
+    width: 200px;;
+    border-radius: 5px;
+    border:none;
+    
+}
+
+/*  Fin formulario Login */
+
+/* movies page */
+
+.Cartel:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+/*
+.Cartel:hover{
+    animation: scale(1.05);
+    ;
+    
+}*/
+.Cartel{
+    width: 90%;
+
+}
+
+.GridCont{
+    display: grid;
+    margin-top: 20vh;
+    margin-left: 10vw;
+      
+}
+
+.GriItem1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    
+}
+
+
+
+
+@media only screen and (min-width: 1024px){
+    .GridCont{
+        display: grid;
+        margin-top: 15vh;
+        margin-left: 2vw;
+    
+        
+    }
+
+    .GriItem1{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    
+    
+    
+    .GriItem2{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    
+    
+    .GriItem3{
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .GriItem4{
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+   
+}
+
+@media only screen and (min-width: 640px){
+    .GridCont{
+        display: grid;
+        margin-top: 15vh;
+        margin-left: 2vw;
+
+    
+        
+    }
+
+    .GriItem1{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    
+    
+    
+    .GriItem2{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .GriItem3{
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+}
+/*
+@media only screen and (min-width: 640px){
+    .GridCont{
+        display: grid;
+        margin-top: 20vh;
+        margin-left: 2vw;
+        
+    }
+
+    .GriItem1{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    
+    
+    
+    .GriItem2{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+   
+}*/
+
+/* Fin movies page   */
+
+/* player page   */
+#repro{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18vh;
+    
+    
+}
+
+@media only screen and (max-width: 640px){
+    #repro{   
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 25vh;
+        max-width: 520px;
+        max-height: 200px;        
+        
+    }
+}
+
+/* Fin player page   */
+
+header {
+    position: fixed;
+    color: white;
+    background-color: rgb(139, 18, 18);
+    padding: 1px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+    
+}
+
+
+
+footer {
+    position:fixed;
+    color:white;
+    text-align: center;
+    background-color: rgb(139, 18, 18);
+    padding: 5px;
+    bottom: 0vh;
+    left: 0px;
+    right: 0px;
+    
+    
+}

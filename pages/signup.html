@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/f526392fb3.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,600;1,700&display=swap');
+    </style>
+    <title>Registro</title>
+</head>
+
+<body>
+
+    <header>
+
+        <a href="/index.html"><img src="/assets/Ico/pelicula-clapper-open.svg" alt="logo"></a>
+
+        <h2> RedCine </h2>
+
+
+        <nav>
+            
+          <a class="Botonnav" href="/pages/login.html"> <i class="fas fa-unlock-alt"></i>Ingresar</a>
+
+          <a class="Botonnav" href="/pages/movies.html"> <i class="fas fa-film"></i>Peliculas</a>
+
+          <a class="Botonnva" href="/pages/player.html"> <i class="fas fa-play"></i>Reproductor</a>
+
+          <a class="Botonnav" href="/pages/signup.html"> <i class="fab fa-wpforms"></i>Registro</a>
+
+          <a class="Botonnav" href="/pages/contact.html"> <i class="far fa-address-card"></i>Contactanos</a>
+
+      </nav>
+
+    </header>
+
+<br><br><br><b><br>
+
+    <form class="row g-4 needs-validation" novalidate>
+        <div class="col-md-3 position-relative">
+          <label for="validationTooltip01" class="form-label"> </label>
+          <input type="text" class="form-control" id="validationTooltip01" placeholder="Ingrese nombre" required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-3 position-relative">
+          <label for="validationTooltip02" class="form-label"> </label>
+          <input type="text" class="form-control" id="validationTooltip02" placeholder="Ingrese apellido" required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-3 position-relative">
+          <label for="validationTooltipUsername" class="form-label"> </label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+            <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" placeholder="Ingrese usuario "required>
+            <div class="invalid-tooltip">
+              Please choose a unique and valid username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip03" class="form-label">City</label>
+          <input type="text" class="form-control" id="validationTooltip03" required>
+          <div class="invalid-tooltip">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3 position-relative">
+          <label for="validationTooltip04" class="form-label">State</label>
+          <select class="form-select" id="validationTooltip04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>...</option>
+            <option>CABA</option>
+            <option>Flores</option>
+          </select>
+          <div class="invalid-tooltip">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-md-3 position-relative">
+          <label for="validationTooltip05" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="validationTooltip05" required>
+          <div class="invalid-tooltip">
+            Please provide a valid zip.
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+
+
+
+
+
+    <footer> Derechos Reservados </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
