@@ -5,7 +5,9 @@
 
 }
 
-
+body{
+    background-color: black;
+}
 
 @keyframes changeColor {
     from { color: white; }  
