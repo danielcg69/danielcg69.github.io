@@ -35,8 +35,10 @@ body > header > a > img:hover{
 
 body > a > img{
     position:static;
+/*
     border-style: dotted;
     border-color: cornsilk; 
+*/
     margin-top: 12vh;
     width: 99vw;
     height: 84vh;
