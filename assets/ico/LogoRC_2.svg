@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="35"
+   height="62"
+   viewBox="0 0 9.2604172 16.404166"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="LogoRC_2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="1.3419914"
+     inkscape:cx="205.29193"
+     inkscape:cy="92.772577"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     width="130px" />
+  <defs
+     id="defs2">
+    <rect
+       x="674.74286"
+       y="131.65714"
+       width="56.228573"
+       height="41.142857"
+       id="rect17613" />
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g21482"
+       transform="matrix(0.88168548,0,0,1.4562145,-117.97058,-29.366418)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0108px;line-height:1.25;font-family:Tahoma;-inkscape-font-specification:Tahoma;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.1147"
+         x="167.73555"
+         y="24.717045"
+         id="text2211"
+         transform="scale(0.80120592,1.2481186)"><tspan
+           sodipodi:role="line"
+           id="tspan2209"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.0108px;font-family:Tahoma;-inkscape-font-specification:Tahoma;fill:#666666;stroke-width:0.1147"
+           x="167.73555"
+           y="24.717045">R</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:9.45608px;line-height:1.25;font-family:sans-serif;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.0985008"
+         x="194.84624"
+         y="21.894266"
+         id="text14171"
+         transform="scale(0.71193723,1.4046182)"><tspan
+           sodipodi:role="line"
+           id="tspan14169"
+           style="font-size:9.45608px;fill:#666666;stroke-width:0.0985008"
+           x="194.84624"
+           y="21.894266">C</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:9.45608px;fill:#666666;stroke-width:0.0985008"
+           x="194.84624"
+           y="33.714367"
+           id="tspan14789" /></text>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text17611"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect17613);fill:#000000;fill-opacity:1;stroke:none" />
+  </g>
+</svg>

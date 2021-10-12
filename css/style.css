@@ -9,11 +9,12 @@ body{
     background-color: black;
 }
 
+
 @keyframes changeColor {
     from { color: white; }  
     to { color: dimgray; }  
   }
-h2  {
+h2 {
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 2rem;
     text-align:  center;
@@ -21,47 +22,6 @@ h2  {
     background-color: rgb(139, 18, 18);
     animation: changeColor 2s ease 0s infinite alternate;
 }
-/* -------------  Logo Tablita------------*/
-body > header > a > img {
-    background-color: rgb(139, 18, 18);
-    color:dimgray;
-    transition: .5s;
-   
-}
-
-body > header > a > img:hover{
-    transform:scale(1.15); 
-}
-
-body > a > img{
-    position:static;
-/*
-    border-style: dotted;
-    border-color: cornsilk; 
-*/
-    margin-top: 12vh;
-    width: 99vw;
-    height: 84vh;
- 
-}
-
-
-
-
-
-/*    para poner video en pagian inicio
-body > a > video{
-    border-style: dotted;
-    border-color: cornsilk; 
-    margin-left: 0px;
-    
-    margin-top: 12vh;
-    width: 100vw;
-    height: ;
-    transition: .25s;
-    
-}  */  
-
  
 body > header > a {
     position: fixed;
@@ -117,6 +77,123 @@ nav > a >i{
         
     }
 
+}
+
+
+/* -------------  Logo Tablita------------*/
+body > header > a > img {
+    background-color: rgb(139, 18, 18);
+    color:dimgray;
+    transition: .5s;
+   
+}
+
+body > header > a > img:hover{
+    transform:scale(1.15); 
+}
+
+/*-------------------pagina Index-----------------------------*/
+.leyenda{
+    font-family: 'Archivo Narrow', sans-serif;
+    position: absolute;
+    background-color: transparent;
+    top: 22%;
+    left: 50%;
+    text-align:center;
+    transform: translate(-50%, -50%);
+
+}
+
+.inicio .cartel1{
+    position: absolute;
+    top: 30%;
+    margin-left: 20vw;
+    max-height: 360px;
+    max-width: 240px;
+    opacity: 100%;
+    
+}
+    
+.inicio .cartel2{
+    position: absolute  ;
+    top: 30%;
+    margin-left: 20vw;
+    max-height: 360px;
+    max-width: 240px;    
+    animation: transition 3s ease-in-out infinite alternate-reverse;
+   
+}
+
+@keyframes transition{
+    from{opacity: 100%;}
+    to{opacity: 0%;}
+}
+
+.inicio .cartel3{
+    height: 0px;
+}
+.inicio .cartel4{
+    height: 0px;
+}
+
+@media only screen and (min-width: 640px){
+
+.leyenda{
+    font-family: 'Archivo Narrow', sans-serif;
+    position: absolute;
+    background-color: transparent;
+    top: 18%;
+    left: 50%;
+    text-align:center;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+.inicio .cartel1{
+    position: absolute;
+    top: 25%;
+    margin-left: 20vw;
+    height: 360px;
+    width: 240px;
+    opacity: 100%;
+    
+}
+    
+.inicio .cartel2{
+    position: absolute  ;
+    top: 25%;
+    margin-left: 20vw;
+    height: 360px;
+    width: 240px;    
+    animation: transition 3s ease-in-out infinite alternate-reverse;
+   
+}
+.inicio .cartel3{
+    position: absolute;
+    top: 25%;
+    margin-left: 60vw;
+    height: 360px;
+    width: 240px;
+    opacity: 100%;
+    
+}
+    
+.inicio .cartel4{
+    position: absolute  ;
+    top: 25%;
+    margin-left: 60vw;
+    height: 360px;
+    width: 240px;    
+    animation: transition 3s ease-in-out infinite alternate-reverse;
+
+}
+
+@keyframes transition{
+    from{opacity: 100%;}
+    to{opacity: 0%;}
+}
 }
 
 /* Formulario Login */
@@ -178,10 +255,9 @@ nav > a >i{
 /* movies page */
 
 .Cartel:hover {
-    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    animation: shake .75s cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0, 0, 0);
-    backface-visibility: hidden;
-    perspective: 1000px;
+   
   }
   
   @keyframes shake {
@@ -201,14 +277,11 @@ nav > a >i{
       transform: translate3d(4px, 0, 0);
     }
   }
-/*
-.Cartel:hover{
-    animation: scale(1.05);
-    ;
-    
-}*/
+
 .Cartel{
     width: 90%;
+    border-radius: 5px;
+    margin-bottom: 50px;
 
 }
 
@@ -216,6 +289,7 @@ nav > a >i{
     display: grid;
     margin-top: 20vh;
     margin-left: 10vw;
+    margin-bottom: 5vh;
       
 }
 
@@ -265,7 +339,12 @@ nav > a >i{
         grid-row-start: 1;
         grid-row-end: 1;
     }
-   
+    .GriItem5{
+        grid-column-start: 5;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
 }
 
 @media only screen and (min-width: 640px){
@@ -273,18 +352,13 @@ nav > a >i{
         display: grid;
         margin-top: 15vh;
         margin-left: 2vw;
-
-    
-        
     }
 
     .GriItem1{
         grid-column-start: 1;
         grid-column-end: 1;
     }
-    
-    
-    
+  
     .GriItem2{
         grid-column-start: 2;
         grid-column-end: 2;
@@ -298,33 +372,8 @@ nav > a >i{
         grid-row-start: 1;
         grid-row-end: 1;
     }
-
 }
-/*
-@media only screen and (min-width: 640px){
-    .GridCont{
-        display: grid;
-        margin-top: 20vh;
-        margin-left: 2vw;
-        
-    }
 
-    .GriItem1{
-        grid-column-start: 1;
-        grid-column-end: 1;
-    }
-    
-    
-    
-    .GriItem2{
-        grid-column-start: 2;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 1;
-    }
-
-   
-}*/
 
 /* Fin movies page   */
 
@@ -359,24 +408,27 @@ header {
     color: white;
     background-color: rgb(139, 18, 18);
     padding: 1px;
-    top: 0px;
+    top: 0vh;
     left: 0px;
     right: 0px;
+    opacity: 90%;
     
-    
+         
 }
 
 
 
 footer {
-    position:fixed;
+    position: fixed;
+    bottom: 0px;    
     color:white;
     text-align: center;
     background-color: rgb(139, 18, 18);
     padding: 5px;
-    bottom: 0vh;
     left: 0px;
     right: 0px;
+    
+    
     
     
 }
