@@ -107,7 +107,7 @@ body > header > a > img:hover{
 .inicio .cartel1{
     position: absolute;
     top: 30%;
-    margin-left: 20vw;
+    margin-left: 18vw;
     max-height: 360px;
     max-width: 240px;
     opacity: 100%;
@@ -117,7 +117,7 @@ body > header > a > img:hover{
 .inicio .cartel2{
     position: absolute  ;
     top: 30%;
-    margin-left: 20vw;
+    margin-left: 18vw;
     max-height: 360px;
     max-width: 240px;    
     animation: transition 3s ease-in-out infinite alternate-reverse;
@@ -153,8 +153,8 @@ body > header > a > img:hover{
 
 .inicio .cartel1{
     position: absolute;
-    top: 25%;
-    margin-left: 20vw;
+    top: 30%;
+    margin-left: 25vw;
     height: 360px;
     width: 240px;
     opacity: 100%;
@@ -163,8 +163,8 @@ body > header > a > img:hover{
     
 .inicio .cartel2{
     position: absolute  ;
-    top: 25%;
-    margin-left: 20vw;
+    top: 30%;
+    margin-left: 25vw;
     height: 360px;
     width: 240px;    
     animation: transition 3s ease-in-out infinite alternate-reverse;
@@ -172,8 +172,8 @@ body > header > a > img:hover{
 }
 .inicio .cartel3{
     position: absolute;
-    top: 25%;
-    margin-left: 60vw;
+    top: 30%;
+    margin-left: 55vw;
     height: 360px;
     width: 240px;
     opacity: 100%;
@@ -182,8 +182,8 @@ body > header > a > img:hover{
     
 .inicio .cartel4{
     position: absolute  ;
-    top: 25%;
-    margin-left: 60vw;
+    top: 30%;
+    margin-left: 55vw;
     height: 360px;
     width: 240px;    
     animation: transition 3s ease-in-out infinite alternate-reverse;
