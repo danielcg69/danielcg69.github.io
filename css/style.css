@@ -12,7 +12,7 @@ body{
 
 @keyframes changeColor {
     from { color: white; }  
-    to { color: dimgray; }  
+    to { color:grey; }  
   }
 h2 {
     font-family: 'Archivo Narrow', sans-serif;
@@ -33,7 +33,7 @@ body > header > a {
 }
 
 .Logo {
-    color:dimgray;
+    color:grey;
 }
 
 nav {
@@ -43,7 +43,7 @@ nav {
 }
 
 nav > a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Archivo Narrow', sans-serif, Verdana;
     font-size: 1rem;
     color: rgb(105, 105, 105);
     padding: 5px;
@@ -52,11 +52,11 @@ nav > a {
 }
 
 nav >a:hover{
-    color: dimgray;
+    color:grey;
 }
 
 nav > a >i{
-    color: dimgray;
+    color:grey;
     padding: 5px;
     background-color: rgb(139, 18, 18) ;
     text-decoration: none;
@@ -72,7 +72,7 @@ nav > a >i{
     .fas, .far, .fab{
         font-size: 1rem;
         line-height: 1rem;
-        color: dimgray;
+        color: grey;
         background-color: rgb(139, 18, 18);
         
     }
@@ -83,8 +83,8 @@ nav > a >i{
 /* -------------  Logo Tablita------------*/
 body > header > a > img {
     background-color: rgb(139, 18, 18);
-    color:dimgray;
-    transition: .5s;
+    color:grey;
+    transition:.5s;
    
 }
 
@@ -95,13 +95,14 @@ body > header > a > img:hover{
 /*-------------------pagina Index-----------------------------*/
 .leyenda{
     font-family: 'Archivo Narrow', sans-serif;
+    font-size: 1.5rem;
     position: absolute;
     background-color: transparent;
     top: 22%;
     left: 50%;
     text-align:center;
     transform: translate(-50%, -50%);
-
+    text-decoration: none;
 }
 
 .inicio .cartel1{
@@ -111,7 +112,7 @@ body > header > a > img:hover{
     max-height: 360px;
     max-width: 240px;
     opacity: 100%;
-    
+    border-radius: 10px;
 }
     
 .inicio .cartel2{
@@ -119,7 +120,8 @@ body > header > a > img:hover{
     top: 30%;
     margin-left: 18vw;
     max-height: 360px;
-    max-width: 240px;    
+    max-width: 240px;   
+    border-radius: 10px; 
     animation: transition 3s ease-in-out infinite alternate-reverse;
    
 }
@@ -141,18 +143,20 @@ body > header > a > img:hover{
 .leyenda{
     font-family: 'Archivo Narrow', sans-serif;
     position: absolute;
+    font-size: 2rem;
     background-color: transparent;
-    top: 18%;
+    top: 20%;
     left: 50%;
     text-align:center;
     transform: translate(-50%, -50%);
+    text-decoration: none;
 
 }
 
 
 
 .inicio .cartel1{
-    position: absolute;
+    position:absolute;
     top: 30%;
     margin-left: 25vw;
     height: 360px;
@@ -162,7 +166,7 @@ body > header > a > img:hover{
 }
     
 .inicio .cartel2{
-    position: absolute  ;
+    position:absolute;
     top: 30%;
     margin-left: 25vw;
     height: 360px;
@@ -177,6 +181,7 @@ body > header > a > img:hover{
     height: 360px;
     width: 240px;
     opacity: 100%;
+    border-radius: 10px;
     
 }
     
@@ -185,7 +190,8 @@ body > header > a > img:hover{
     top: 30%;
     margin-left: 55vw;
     height: 360px;
-    width: 240px;    
+    width: 240px;
+    border-radius: 10px;    
     animation: transition 3s ease-in-out infinite alternate-reverse;
 
 }
@@ -229,7 +235,7 @@ body > header > a > img:hover{
 
 .Recuadrito{
     background-color: white;
-    color:dimgray;
+    color:grey;
     border: none;
     border-radius: 5px;
     height: 35px;
@@ -377,16 +383,31 @@ body > header > a > img:hover{
 
 /* Fin movies page   */
 
-/* player page   */
+/* end player page   */
+.provisorio{
+    font-family:cursive, 'Archivo Narrow', sans-serif;
+    font-size: 2rem;
+    position: absolute;
+    background-color: transparent;
+    top: 50%;
+    left: 50%;
+    text-align:center;
+    transform: translate(-50%, -50%);
+}
+.provisorio i{
+    background-color: transparent;
+}
+
+
 #repro{
     display: flex; 
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-top: 18vh;
-    
-    
 }
+
+
 
 @media only screen and (max-width: 640px){
     #repro{   
@@ -401,7 +422,7 @@ body > header > a > img:hover{
     }
 }
 
-/* Fin player page   */
+/* end player page   */
 
 header {
     position: fixed;
@@ -421,14 +442,17 @@ header {
 footer {
     position: fixed;
     bottom: 0px;    
-    color:white;
+    color:grey;
+    font-family:'Archivo Narrow', sans-serif;
     text-align: center;
     background-color: rgb(139, 18, 18);
     padding: 5px;
     left: 0px;
     right: 0px;
+}    
+footer i{
+    background-color: rgb(139, 18, 18);
+    color:grey;
+}   
     
     
-    
-    
-}
