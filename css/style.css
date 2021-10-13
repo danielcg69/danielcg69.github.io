@@ -2,13 +2,11 @@
     background-color: black;
     color: white;
     margin: 0;
-
 }
 
 body{
     background-color: black;
 }
-
 
 @keyframes changeColor {
     from { color: white; }  
@@ -24,12 +22,11 @@ h2 {
 }
  
 body > header > a {
-    position: fixed;
+    position: absolute;
     width: 50px;
     height: 28px;
     top: 10px;
     left: 10px;
-   
 }
 
 .Logo {
@@ -74,9 +71,7 @@ nav > a >i{
         line-height: 1rem;
         color: grey;
         background-color: rgb(139, 18, 18);
-        
     }
-
 }
 
 
@@ -85,7 +80,6 @@ body > header > a > img {
     background-color: rgb(139, 18, 18);
     color:grey;
     transition:.5s;
-   
 }
 
 body > header > a > img:hover{
@@ -123,7 +117,6 @@ body > header > a > img:hover{
     max-width: 240px;   
     border-radius: 10px; 
     animation: transition 3s ease-in-out infinite alternate-reverse;
-   
 }
 
 @keyframes transition{
@@ -150,7 +143,6 @@ body > header > a > img:hover{
     text-align:center;
     transform: translate(-50%, -50%);
     text-decoration: none;
-
 }
 
 
@@ -162,7 +154,6 @@ body > header > a > img:hover{
     height: 360px;
     width: 240px;
     opacity: 100%;
-    
 }
     
 .inicio .cartel2{
@@ -172,8 +163,8 @@ body > header > a > img:hover{
     height: 360px;
     width: 240px;    
     animation: transition 3s ease-in-out infinite alternate-reverse;
-   
 }
+
 .inicio .cartel3{
     position: absolute;
     top: 30%;
@@ -181,8 +172,7 @@ body > header > a > img:hover{
     height: 360px;
     width: 240px;
     opacity: 100%;
-    border-radius: 10px;
-    
+    border-radius: 10px;  
 }
     
 .inicio .cartel4{
@@ -193,7 +183,6 @@ body > header > a > img:hover{
     width: 240px;
     border-radius: 10px;    
     animation: transition 3s ease-in-out infinite alternate-reverse;
-
 }
 
 @keyframes transition{
@@ -207,8 +196,6 @@ body > header > a > img:hover{
 .inusr, .inpwd, .sub {
     padding: 5px;
 }
-
-
 
 #contenedor {
     display: flex;
@@ -228,8 +215,7 @@ body > header > a > img:hover{
         display: flex;
         flex-direction: row;
         justify-content:center;
-        align-items:flex-end;
-        
+        align-items:flex-end;       
 }
 }
 
@@ -305,9 +291,6 @@ body > header > a > img:hover{
     
 }
 
-
-
-
 @media only screen and (min-width: 1024px){
     .GridCont{
         display: grid;
@@ -379,8 +362,6 @@ body > header > a > img:hover{
         grid-row-end: 1;
     }
 }
-
-
 /* Fin movies page   */
 
 /* end player page   */
@@ -398,7 +379,6 @@ body > header > a > img:hover{
     background-color: transparent;
 }
 
-
 #repro{
     display: flex; 
     flex-direction: row;
@@ -406,8 +386,6 @@ body > header > a > img:hover{
     align-items: center;
     margin-top: 18vh;
 }
-
-
 
 @media only screen and (max-width: 640px){
     #repro{   
@@ -425,7 +403,7 @@ body > header > a > img:hover{
 /* end player page   */
 
 header {
-    position: fixed;
+    position: absolute;
     color: white;
     background-color: rgb(139, 18, 18);
     padding: 1px;
