@@ -431,6 +431,14 @@ footer {
 footer i{
     background-color: rgb(139, 18, 18);
     color:grey;
-}   
-    
+} 
+
+footer > a{
+    position: absolute;
+    left: 90%;
+    background-color: transparent;
+    color: grey;
+    text-decoration: none;
+}
+
     
