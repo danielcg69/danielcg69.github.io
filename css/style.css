@@ -100,7 +100,7 @@ body > header > a > img:hover{
 
 .inicio .cartel1 {
     position: absolute;
-    margin-left: 25vw;
+    margin-left: 20vw;
     margin-top: 5vh;
     max-height: 360px;
     max-width: 240px;
@@ -112,7 +112,7 @@ body > header > a > img:hover{
 .inicio .cartel2{
     position: absolute;
     margin-top: 5vh;
-    margin-left: 25vw; 
+    margin-left: 20vw; 
     max-height: 360px;
     max-width: 240px;   
     border-radius: 10px; 
