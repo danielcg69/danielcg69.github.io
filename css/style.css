@@ -90,33 +90,35 @@ body > header > a > img:hover{
 .leyenda{
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 1.5rem;
-    position: absolute;
     background-color: transparent;
-    top: 22%;
-    left: 50%;
     text-align:center;
-    transform: translate(-50%, -50%);
+    margin-top: 20vh;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
 }
 
-.inicio .cartel1{
+.inicio .cartel1 {
     position: absolute;
-    top: 30%;
-    margin-left: 18vw;
+    margin-left: 25vw;
+    margin-top: 5vh;
     max-height: 360px;
     max-width: 240px;
     opacity: 100%;
     border-radius: 10px;
-}
-    
+ }
+
+  
 .inicio .cartel2{
-    position: absolute  ;
-    top: 30%;
-    margin-left: 18vw;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 25vw; 
     max-height: 360px;
     max-width: 240px;   
     border-radius: 10px; 
     animation: transition 3s ease-in-out infinite alternate-reverse;
+
+    
 }
 
 @keyframes transition{
@@ -131,26 +133,27 @@ body > header > a > img:hover{
     height: 0px;
 }
 
-@media only screen and (min-width: 640px){
+@media only screen and (min-width: 800px){
 
 .leyenda{
     font-family: 'Archivo Narrow', sans-serif;
-    position: absolute;
     font-size: 2rem;
     background-color: transparent;
-    top: 20%;
-    left: 50%;
-    text-align:center;
-    transform: translate(-50%, -50%);
     text-decoration: none;
+    text-align:center;
+    margin-top: 15vh;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+
 }
 
 
 
 .inicio .cartel1{
     position:absolute;
-    top: 30%;
-    margin-left: 25vw;
+    margin-top: 10vh;
+    margin-left: 20vw;
     height: 360px;
     width: 240px;
     opacity: 100%;
@@ -158,8 +161,8 @@ body > header > a > img:hover{
     
 .inicio .cartel2{
     position:absolute;
-    top: 30%;
-    margin-left: 25vw;
+    margin-top: 10vh;
+    margin-left: 20vw;
     height: 360px;
     width: 240px;    
     animation: transition 3s ease-in-out infinite alternate-reverse;
@@ -167,8 +170,8 @@ body > header > a > img:hover{
 
 .inicio .cartel3{
     position: absolute;
-    top: 30%;
-    margin-left: 55vw;
+    margin-top: 10vh;
+    margin-left: 58vw;
     height: 360px;
     width: 240px;
     opacity: 100%;
@@ -177,8 +180,8 @@ body > header > a > img:hover{
     
 .inicio .cartel4{
     position: absolute  ;
-    top: 30%;
-    margin-left: 55vw;
+    margin-top: 10vh;
+    margin-left: 58vw;
     height: 360px;
     width: 240px;
     border-radius: 10px;    
@@ -285,7 +288,7 @@ body > header > a > img:hover{
       
 }
 
-.GriItem1{
+.gridItem1{
     grid-column-start: 1;
     grid-column-end: 1;
     
@@ -300,14 +303,14 @@ body > header > a > img:hover{
         
     }
 
-    .GriItem1{
+    .gridItem1{
         grid-column-start: 1;
         grid-column-end: 1;
     }
+
     
     
-    
-    .GriItem2{
+    .gridItem2{
         grid-column-start: 2;
         grid-column-end: 2;
         grid-row-start: 1;
@@ -315,20 +318,20 @@ body > header > a > img:hover{
     }
     
     
-    .GriItem3{
+    .gridItem3{
         grid-column-start: 3;
         grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 1;
     }
 
-    .GriItem4{
+    .gridItem4{
         grid-column-start: 4;
         grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: 1;
     }
-    .GriItem5{
+    .gridItem5{
         grid-column-start: 5;
         grid-column-end: 5;
         grid-row-start: 1;
@@ -343,19 +346,19 @@ body > header > a > img:hover{
         margin-left: 2vw;
     }
 
-    .GriItem1{
+    .gridItem1{
         grid-column-start: 1;
         grid-column-end: 1;
     }
   
-    .GriItem2{
+    .gridItem2{
         grid-column-start: 2;
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 1;
     }
 
-    .GriItem3{
+    .gridItem3{
         grid-column-start: 3;
         grid-column-end: 3;
         grid-row-start: 1;
@@ -441,4 +444,50 @@ footer > a{
     text-decoration: none;
 }
 
+
+.terminos{
+    margin: 12%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 20px;
+
+}
+h5{
+    background-color:rgb(139, 18, 18);
+    color:grey ;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: grey;
+    border-radius: 10px;
+}
+body > div > form > fieldset{
+    color: grey;
+    border-radius: 10px;
+      
+}
+body > div > form > fieldset> legend{
+    color: grey;
+    font-family: 'Archivo Narrow', sans-serif;
+}
     
+body > div > form > fieldset > input[type=submit]{
+
+    background-color: #216efd;
+    height: 38px;
+    width: 200px;;
+    border-radius: 5px;
+    border:none;
+}
