@@ -463,7 +463,7 @@ h5{
     font-family: 'Archivo Narrow', sans-serif;
 }
 
-.contacto{
+.contacto {
     display: flex;
     flex-direction: column;
     margin-top: 15vh;
@@ -473,6 +473,21 @@ h5{
     color: grey;
     border-radius: 10px;
 }
+
+.fieldcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    
+}
+
+.fieldcontainer div{
+    padding: 10px;
+    margin: 5px;
+}
+
 body > div > form > fieldset{
     color: grey;
     border-radius: 10px;
@@ -483,11 +498,12 @@ body > div > form > fieldset> legend{
     font-family: 'Archivo Narrow', sans-serif;
 }
     
-body > div > form > fieldset > input[type=submit]{
+body > div > form > fieldset > div > input[type=submit]{
 
     background-color: #216efd;
     height: 38px;
     width: 200px;;
     border-radius: 5px;
     border:none;
+    
 }
