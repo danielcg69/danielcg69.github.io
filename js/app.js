@@ -18,7 +18,8 @@
         }, false)
       })
   })()
-//valida que las dos password sean iguales
+
+  //valida que las dos password sean iguales
   function validpass(p){
     var pass=p.password.value
     var passr=p.rptpassword.value

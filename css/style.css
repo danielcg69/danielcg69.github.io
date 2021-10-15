@@ -59,7 +59,7 @@ nav > a >i{
     text-decoration: none;
 }
 
-/* Cambio barra navegacion de botones a iconos */
+/* -----------Cambio barra navegacion de botones a iconos----------------- */
 
 @media only screen and (max-width: 640px){
         nav > a {
@@ -76,6 +76,7 @@ nav > a >i{
 
 
 /* -------------  Logo Tablita------------*/
+
 body > header > a > img {
     background-color: rgb(139, 18, 18);
     color:grey;
@@ -107,7 +108,6 @@ body > header > a > img:hover{
     opacity: 100%;
     border-radius: 10px;
  }
-
   
 .inicio .cartel2{
     position: absolute;
@@ -117,8 +117,6 @@ body > header > a > img:hover{
     max-width: 240px;   
     border-radius: 10px; 
     animation: transition 3s ease-in-out infinite alternate-reverse;
-
-    
 }
 
 @keyframes transition{
@@ -145,10 +143,7 @@ body > header > a > img:hover{
     text-decoration: none;
     display: flex;
     flex-direction: column;
-
 }
-
-
 
 .inicio .cartel1{
     position:absolute;
@@ -194,7 +189,7 @@ body > header > a > img:hover{
 }
 }
 
-/* Formulario Login */
+/*------------------- Formulario Login -------------------------*/
 
 .inusr, .inpwd, .sub {
     padding: 5px;
@@ -211,7 +206,6 @@ body > header > a > img:hover{
 .Item {
     padding:10px;
     width: 250px;
-    
 }    
 
 @media screen and (min-width: 640px){
@@ -237,23 +231,18 @@ body > header > a > img:hover{
 }
 
 #contenedor > div.Item.sub > input[type=submit]{
-    
     background-color: #216efd;
     height: 38px;
     width: 250px;;
     border-radius: 5px;
-    border:none;
-    
+    border:none; 
 }
 
-/*  Fin formulario Login */
-
-/* movies page */
+/*------------------- Pagina Peliculas------------------------------ */
 
 .Cartel:hover {
     animation: shake .75s cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0, 0, 0);
-   
   }
   
   @keyframes shake {
@@ -278,7 +267,6 @@ body > header > a > img:hover{
     width: 90%;
     border-radius: 5px;
     margin-bottom: 50px;
-
 }
 
 .GridCont{
@@ -286,13 +274,11 @@ body > header > a > img:hover{
     margin-top: 20vh;
     margin-left: 10vw;
     margin-bottom: 5vh;
-      
 }
 
 .gridItem1{
     grid-column-start: 1;
     grid-column-end: 1;
-    
 }
 
 @media only screen and (min-width: 1024px){
@@ -300,8 +286,6 @@ body > header > a > img:hover{
         display: grid;
         margin-top: 15vh;
         margin-left: 2vw;
-    
-        
     }
 
     .gridItem1{
@@ -309,16 +293,13 @@ body > header > a > img:hover{
         grid-column-end: 1;
     }
 
-    
-    
     .gridItem2{
         grid-column-start: 2;
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 1;
     }
-    
-    
+        
     .gridItem3{
         grid-column-start: 3;
         grid-column-end: 3;
@@ -332,6 +313,7 @@ body > header > a > img:hover{
         grid-row-start: 1;
         grid-row-end: 1;
     }
+    
     .gridItem5{
         grid-column-start: 5;
         grid-column-end: 5;
@@ -366,9 +348,9 @@ body > header > a > img:hover{
         grid-row-end: 1;
     }
 }
-/* Fin movies page   */
 
-/* end player page   */
+/*------------------Reproductor------------------------------  */
+
 .provisorio{
     font-family:cursive, 'Archivo Narrow', sans-serif;
     font-size: 2rem;
@@ -404,7 +386,7 @@ body > header > a > img:hover{
     }
 }
 
-/* end player page   */
+/*------------------Header--------------------------*/
 
 header {
     position: absolute;
@@ -415,11 +397,9 @@ header {
     left: 0px;
     right: 0px;
     opacity: 90%;
-    
-         
-}
+} 
 
-
+/*----------------------Footer-----------------------*/
 
 footer {
     position: fixed;
@@ -445,6 +425,7 @@ footer > a{
     text-decoration: none;
 }
 
+/*----------------Terminos y condicione------------------*/
 
 .terminos{
     margin: 12%;
@@ -456,13 +437,14 @@ footer > a{
     border-radius: 10px;
     border-width: 1px;
     padding: 20px;
-
 }
+
 h5{
     background-color:rgb(139, 18, 18);
     color:grey ;
     font-family: 'Archivo Narrow', sans-serif;
 }
+/*---------------Formulario Contacto-----------------------*/
 
 .contacto {
     display: flex;
@@ -470,6 +452,7 @@ h5{
     margin-top: 15vh;
     margin-left: 5vw;
     margin-right: 5vw;
+    margin-bottom: 10vh;
     font-family: 'Archivo Narrow', sans-serif;
     color: grey;
     border-radius: 10px;
@@ -480,12 +463,11 @@ h5{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    flex-wrap:wrap;
-    
+    flex-wrap:wrap;  
 }
 
 .fieldcontainer div{
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
 }
 
@@ -500,11 +482,9 @@ body > div > form > fieldset> legend{
 }
     
 body > div > form > fieldset > div > input[type=submit]{
-
     background-color: #216efd;
     height: 38px;
     width: 250px;;
     border-radius: 5px;
-    border:none;
-    
+    border:none; 
 }
