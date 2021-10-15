@@ -205,11 +205,12 @@ body > header > a > img:hover{
     flex-direction: column;
     margin-top: 150px;
     align-items: center;
+    flex-wrap: wrap;
     }
 
 .Item {
     padding:10px;
-    width: 200px;
+    width: 250px;
     
 }    
 
@@ -228,7 +229,7 @@ body > header > a > img:hover{
     border: none;
     border-radius: 5px;
     height: 35px;
-    width: 200px;
+    width: 250px;
 }
 
 #contenedor > div.Item.sub > input[type=submit]:hover{
@@ -239,7 +240,7 @@ body > header > a > img:hover{
     
     background-color: #216efd;
     height: 38px;
-    width: 200px;;
+    width: 250px;;
     border-radius: 5px;
     border:none;
     
@@ -502,7 +503,7 @@ body > div > form > fieldset > div > input[type=submit]{
 
     background-color: #216efd;
     height: 38px;
-    width: 200px;;
+    width: 250px;;
     border-radius: 5px;
     border:none;
     
